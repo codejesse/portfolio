@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hand />
+      {/* <Hand /> */}
       <img src="orbit.png" alt="stack-orbit" />
       <div className="me">
         <img src="me.png" alt="stack-orbit" />

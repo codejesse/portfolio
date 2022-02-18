@@ -57,11 +57,13 @@ p {
 }
 
 .nav {
+  z-index: 9999;
+  overflow: hidden;
   position: fixed;
   width: 30%;
   height: 90px;
   left: 480px;
-  top: 27px;
+  top: 10px;
   background: rgba(196, 196, 196, 0.3);
   border: 6px solid rgba(252, 238, 238, 0.7);
   box-sizing: border-box;
