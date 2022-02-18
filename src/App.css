@@ -59,28 +59,7 @@ body {
   -webkit-animation-direction:normal;
   -webkit-animation-play-state:running;
 }
-.pulse {
-  margin: 0 auto;
-  border-radius: 100px;
-  position: absolute;
-  left: 5px;
-  top: 5px;
-  z-index: 0;
-  background-color: transparent;
-  opacity: 0;
-  width: 110px;
-  height: 110px;
-  border: 10px solid #00baff;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -o-border-radius: 100px;
-  -ms-border-radius: 100px;
-  border-radius: 100px;
-  /* Giving Animation Function */
-  -webkit-animation: pulse 1s linear infinite 0.3s;
-  -moz-animation: pulse 1s linear infinite 0.3s; 
-  border-image: initial;
-}
+
 @keyframes arrow
   {
   0%   {bottom:0;}
@@ -111,20 +90,6 @@ body {
   90% {height: 130px;}
   100% {height: 120px;}
   }
-@-webkit-keyframes pulse {       
-  0% {-webkit-transform: scale(0); opacity: 0;}
-  8% {-webkit-transform: scale(0); opacity: 0;}
-  15% {-webkit-transform: scale(0.1); opacity: 1;}
-  30% {-webkit-transform: scale(0.5); opacity: 1;}
-  100% {opacity: 0; -webkit-transform: scale(1.5);}
-}
-@-moz-keyframes pulse {       
-  0% {-webkit-transform: scale(0); opacity: 0;}
-  8% {-webkit-transform: scale(0); opacity: 0;}
-  15% {-webkit-transform: scale(0.1); opacity: 1;}
-  30% {-webkit-transform: scale(0.5); opacity: 1;}
-  100% {opacity: 0; -webkit-transform: scale(1.5);}
-}
 
 .App {
   text-align: center;
