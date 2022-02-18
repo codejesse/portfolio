@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Hand from "./components/Hand";
+// import Hand from "./components/Hand";
 import About from "./components/About";
 
 function App() {
