@@ -125,6 +125,9 @@ h1 {
   font-weight: 800;
   font-size: 80px;
   line-height: 98px;
+  /* background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 p {
@@ -139,6 +142,9 @@ p {
   font-weight: normal;
   font-size: 30px;
   line-height: 37px;
+  /* background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .nav {
@@ -176,7 +182,10 @@ p {
   border: 6px solid rgba(252, 238, 238, 0.7);
   box-sizing: border-box;
   /* Note: backdrop-filter has minimal browser support */
-  border-radius: 90px;
+  border-radius: 150px;
+  /* background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .about h2{
@@ -194,7 +203,16 @@ p {
   width: 300px;
   height: 300px;
   float: right;
-  margin-top: -100px;
+  margin-top: -400px;
+}
+
+.about h4{
+  float: left;
+  font-family: Montserrat;
+  color: white;
+  font-size: 20px;
+  margin-left: 120px;
+  margin-top: -40px;
 }
 
 body {
