@@ -1,220 +1,86 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@700&display=swap");
 
 body {
-  margin: 0;
-  box-sizing: border-box;
+  margin: auto;
+  background-color: #242349;
 }
 
 .container {
-  height: 120px;
-  width: 120px;
-  margin: 250px auto 0;
-  margin-top: -8px;
-  position: relative;
-}
-.circle {
-  height: 120px;
-  width: 120px;
-  display: block;
-  border: 5px solid rgba(252, 238, 238, 0.7);
-  border-radius: 100px;
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-  animation-name:circle;
-  animation-duration:1s;
-  animation-timing-function:linear;
-  animation-delay:0s;
-  animation-iteration-count:infinite;
-  animation-direction:normal;
-  animation-play-state:running;
-  -webkit-animation-name:circle;
-  -webkit-animation-duration:1s;
-  -webkit-animation-timing-function:linear;
-  -webkit-animation-delay:0s;
-  -webkit-animation-iteration-count:infinite;
-  -webkit-animation-direction:normal;
-  -webkit-animation-play-state:running;
-}
-.fa {
-  font-size: 42px;
-  color: white;
-  bottom: 27px;
-  position: absolute;
-  left: 48%;
-  margin-left: -18px;
-  animation-name:arrow;
-  animation-duration:1s;
-  animation-timing-function:linear;
-  animation-delay:0s;
-  animation-iteration-count:infinite;
-  animation-direction:normal;
-  animation-play-state:running;
-  -webkit-animation-name:arrow;
-  -webkit-animation-duration:1s;
-  -webkit-animation-timing-function:linear;
-  -webkit-animation-delay:0s;
-  -webkit-animation-iteration-count:infinite;
-  -webkit-animation-direction:normal;
-  -webkit-animation-play-state:running;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  margin: auto;
+  height: 100%;
+  width: 100%;
 }
 
-@keyframes arrow
-  {
-  0%   {bottom:0;}
-  75% {bottom:90px;}
-  100% {bottom:0;}
-  }
-@-webkit-keyframes arrow
-  {
-  0%   {bottom:0;}
-  75% {bottom:90px;}
-  100% {bottom:0;}
-  }
-@keyframes circle
-  {
-  0%   {height:120px;}
-  10% {height: 120px;}
-  50% {height: 130px;}
-  75% {height: 150px;}
-  90% {height: 130px;}
-  100% {height: 120px;}
-  }
-@-webkit-keyframes circle
-  {
-  0%   {height:120px;}
-  10% {height: 120px;}
-  50% {height: 130px;}
-  75% {height: 150px;}
-  90% {height: 130px;}
-  100% {height: 120px;}
-  }
-
-.App {
-  text-align: center;
-}
-
-.App h1 {
-  color: white;
-}
-
-.App img {
-  width: 70%;
-  /* height: 100%; */
-  left: 368px;
-  top: 110px;
-}
-
-.me img {
-  width: 550px;
-  height: 527px;
-  position: absolute;
-  left: 200px;
-  top: 150px;
-}
-
-h1 {
-  position: absolute;
-  width: 784px;
-  height: 104px;
-  left: 570px;
-  top: 270px;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 80px;
-  line-height: 98px;
-  /* background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-}
-
-p {
-  position: absolute;
-  color: white;
-  width: 585px;
-  height: 40px;
-  left: 650px;
-  top: 390px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 37px;
-  /* background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+.container img {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2.2rem;
+  width: 35%;
+  height: 25%;
 }
 
 .nav {
+  margin-left: 26rem;
   z-index: 9999;
   overflow: hidden;
   position: fixed;
-  width: 30%;
+  width: 40%;
   height: 90px;
-  left: 480px;
-  top: 30px;
   background: rgba(196, 196, 196, 0.3);
-  border: 6px solid rgba(252, 238, 238, 0.7);
+  border: 3px dashed rgba(252, 238, 238, 0.7);
   box-sizing: border-box;
   backdrop-filter: blur(120px);
-  /* Note: backdrop-filter has minimal browser support */
   border-radius: 26px;
 }
 
-.nav h3 {
-  width: 90px;
-  height: 90px;
-  margin: 5px;
-  margin-top: 20px;
-  font-size: 30px;
-  float: left;
+.nav h2 {
   color: white;
-  font-family: "Lobster", cursive;
+  padding-left: 2rem;
+  font-family: lobster;
+  font-size: 2rem;
 }
 
-.about {
-  margin: 150px;
-  padding: 20px;
-  width: 80%;
-  height: 600px;
-  border: 6px solid rgba(252, 238, 238, 0.7);
-  box-sizing: border-box;
-  /* Note: backdrop-filter has minimal browser support */
-  border-radius: 150px;
-  /* background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-}
-
-.about h2{
-  margin: 100px;
+.container h1,
+p {
+  text-align: center;
+  margin-top: -5rem;
+  font-family: "Montserrat", sans-serif;
   color: white;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 80px;
-  line-height: 37px;
+}
+
+.container h1 {
+  font-size: 4rem;
+}
+
+.container p {
+  font-size: 1.5rem;
+}
+
+.about-page {
+  display: block;
+  padding-top: 22rem;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.about-page img {
   float: left;
+  padding-left: 2.5rem;
+  padding-bottom: 13rem;
 }
 
-.about img{
-  width: 300px;
-  height: 300px;
-  float: right;
-  margin-top: -400px;
+.about-page h1,
+p {
+  padding: 4.2rem;
+  line-height: 2.5rem;
 }
 
-.about h4{
-  float: left;
-  font-family: Montserrat;
-  color: white;
-  font-size: 20px;
-  margin-left: 120px;
-  margin-top: -40px;
+.about-page p {
+  font-size: 1.3rem;
+  font-family: "Courier New", Courier, monospace;
 }
 
-body {
-  background-color: #242349;
-}
