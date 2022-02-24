@@ -23,14 +23,14 @@ body {
 }
 
 .nav {
-  margin-left: 26rem;
+  margin-left: 30rem;
   z-index: 9999;
   overflow: hidden;
   position: fixed;
-  width: 40%;
+  width: 30%;
   height: 90px;
   background: rgba(196, 196, 196, 0.3);
-  border: 3px dashed rgba(252, 238, 238, 0.7);
+  border: 6px solid rgba(252, 238, 238, 0.7);
   box-sizing: border-box;
   backdrop-filter: blur(120px);
   border-radius: 26px;
