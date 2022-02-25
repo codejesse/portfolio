@@ -1,12 +1,19 @@
 import "./App.css";
 import About from "./components/About";
+// import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 
 function App() {
   var styles = {
-    A: {backgroundImage: "url(/orbit.png)", backgroundRepeat: "no-repeat", backgroundPositionX: "center", backgroundPositionY: "-3rem", backgroundSize: "68rem"},
-  }
+    A: {
+      backgroundImage: "url(/orbit.png)",
+      backgroundRepeat: "no-repeat",
+      backgroundPositionX: "-20rem",
+      backgroundPositionY: "-5rem",
+      backgroundSize: "77rem",
+    },
+  };
   return (
     <div className="container" style={styles.A}>
       <Navbar />
@@ -15,6 +22,7 @@ function App() {
       <p>FrontEnd developer / UI/UX designer</p>
       <About />
       <Projects />
+      {/* <Contact /> */}
     </div>
   );
 }
