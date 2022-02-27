@@ -9,7 +9,7 @@ function About() {
         Jesse is a FrontEnd developer with 3 years of web development experience
         using his skills to craft amazing websites and web apps using top
         technologies. When Jesse isn't coding he listens to his spotify playlist
-        and watches youTube videos technologies. When Jesse isn't coding he listens to his spotify playlist
+        and he tries out new technologies. When Jesse isn't coding he listens to his spotify playlist
         and watches youTube videos technologies. When Jesse isn't coding he listens to his spotify playlist
         and watches youTube videos
       </p>

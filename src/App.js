@@ -1,6 +1,6 @@
 import "./App.css";
 import About from "./components/About";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 
@@ -9,9 +9,9 @@ function App() {
     A: {
       backgroundImage: "url(/orbit.png)",
       backgroundRepeat: "no-repeat",
-      backgroundPositionX: "-20rem",
-      backgroundPositionY: "-5rem",
-      backgroundSize: "77rem",
+      backgroundPositionX: "-24.5rem",
+      // backgroundPositionY: "-5rem", 
+      backgroundSize: "70rem",
     },
   };
   return (
@@ -22,7 +22,7 @@ function App() {
       <p>FrontEnd developer / UI/UX designer</p>
       <About />
       <Projects />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }

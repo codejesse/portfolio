@@ -2,7 +2,7 @@
 
 body {
   margin: auto;
-  background-color: #2c2b86;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(108%2c 107%2c 213%2c 1)'%3e%3c/rect%3e%3cpath d='M817.5255508468483 166.74636258555884L860.1801072483648 17.992246495283155 711.4259911580892-24.662309906233418 668.7714347565726 124.09180618404227z' fill='rgba(142%2c 174%2c 209%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M258.0638242821306 275.950001833827L130.69996589650958 298.4076864343441 153.15765049702665 425.77154481996513 280.5215088826477 403.31386021944803z' fill='rgba(142%2c 174%2c 209%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M402.666%2c551.003C447.697%2c552.133%2c492.248%2c534.658%2c516.434%2c496.657C542.445%2c455.789%2c549.378%2c402.158%2c523.441%2c361.243C498.85%2c322.451%2c448.571%2c315.661%2c402.666%2c317.191C360.05%2c318.612%2c316.998%2c332.283%2c295.076%2c368.856C272.599%2c406.356%2c276.138%2c453.543%2c298.373%2c491.187C320.219%2c528.171%2c359.726%2c549.926%2c402.666%2c551.003' fill='rgba(142%2c 174%2c 209%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1421.456742074392 488.03910126904145L1353.9830414818657 546.6930943455075 1412.6370345583316 614.1667949380338 1480.110735150858 555.5128018615678z' fill='rgba(142%2c 174%2c 209%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M430.02086591639505 352.8362267611049L529.9864364342162 349.34535211594095 526.4955617890522 249.3797815981198 426.5299912712311 252.87065624328375z' fill='rgba(142%2c 174%2c 209%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1286.908%2c293.338C1329.891%2c295.671%2c1374.324%2c281.53%2c1397.34%2c245.154C1421.828%2c206.452%2c1420.765%2c156.991%2c1398.504%2c116.966C1375.594%2c75.774%2c1334.041%2c46.821%2c1286.908%2c46.596C1239.412%2c46.369%2c1194.264%2c73.198%2c1173.451%2c115.892C1154.613%2c154.536%2c1172.296%2c197.976%2c1195.455%2c234.196C1216.415%2c266.978%2c1248.055%2c291.229%2c1286.908%2c293.338' fill='rgba(142%2c 174%2c 209%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
 }
 
 .container {
@@ -23,14 +23,14 @@ body {
 }
 
 .nav {
-  margin-left: 30rem;
+  margin-left: 32rem;
   z-index: 9999;
   overflow: hidden;
   position: fixed;
   width: 30%;
   height: 90px;
   background: rgba(196, 196, 196, 0.3);
-  border: 5px solid rgba(252, 238, 238, 0.7);
+  border: 2px solid rgba(252, 238, 238, 0.7);
   backdrop-filter: blur(120px);
   border-radius: 35px;
 }
@@ -42,7 +42,7 @@ body {
   font-size: 2rem;
 }
 
-.nav p{
+.nav p {
   float: right;
   padding-top: 1rem;
   font-family: sans-serif;
@@ -52,8 +52,8 @@ body {
 
 .container h1,
 p {
-  text-align: center;
-  margin-top: -5rem;
+  text-align: center;  
+  margin-top: -6rem;
   font-family: "Montserrat", sans-serif;
   color: white;
 }
@@ -68,7 +68,8 @@ p {
 
 .about-page {
   display: block;
-  padding-top: 20rem;
+  padding-top: 30rem;
+  padding-bottom: 13rem;
   margin: auto;
   height: 100%;
   width: 100%;
@@ -76,13 +77,16 @@ p {
 
 .about-page img {
   float: left;
-  padding-left: 2.5rem;
+  padding-left: 2rem;
+  margin-top: -3rem;
   padding-bottom: 13rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(35px);
 }
 
 .about-page h1,
 p {
-  padding: 4.2rem;
+  padding: 4rem;
   line-height: 2.5rem;
 }
 
@@ -96,12 +100,20 @@ p {
   font-style: oblique;
 }
 
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .projects-page {
   margin: auto;
-  border: 4px white dashed;
-  width: 70%;
+  margin-bottom: 8rem;
+  width: 76%;
   border-radius: 100px;
   height: 33rem;
+  border: 2px solid rgba(252, 238, 238, 0.7);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(35px);
 }
 
 .projects-page h1 {
@@ -109,25 +121,44 @@ p {
   font-style: oblique;
 }
 
-.projects-page h2{
+.projects-page h2 {
   font-size: 5rem;
   color: white;
   font-family: "Montserrat", sans-serif;
-  margin-top: -40rem;
+  margin-top: -43rem;
   margin-left: 32rem;
 }
 
 .projects-page img {
   margin-top: -13rem;
-  margin-left: -13rem;
+  margin-left: -12rem;
   width: 90%;
   height: 147%;
 }
 
 .contact-page {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10rem;
+  border: 1px white solid;
+  background-color: white;
+  margin-top: 10rem;
+  width: 99.59%;
+  height: 22rem;
+}
+
+.contact-page h1 {
+  color: #2c2b86;
+  font-family: "Montserrat", sans-serif;
+}
+
+.social {
   margin: auto;
-  width: 70%;
-  height: 20rem;
+}
+
+.contact-page span {
+  display: flex;
+  flex-direction: row;
 }
 
 /* media queries for mobile view: 
@@ -145,7 +176,7 @@ p {
   }
 
   .container p {
-    font-size: 0.70rem;
+    font-size: 0.7rem;
   }
 
   .container img {
@@ -164,6 +195,7 @@ p {
   .about-page {
     display: inline-block;
     margin-top: -23rem;
+    padding-bottom: 5rem;
     width: 100%;
   }
 
@@ -171,16 +203,17 @@ p {
     height: 80%;
     width: 80%;
     margin-bottom: -12rem;
+    background: none;
+    backdrop-filter: none;
   }
 
   .about-page h1,
   p {
-    padding-top: -20rem;
+    padding-top: 12rem;
   }
 
   .about-page h1 {
-    font-size: 2rem;
-
+    font-size: 1.6rem;
   }
 
   .about-page p {
@@ -189,20 +222,25 @@ p {
     padding: 1.2rem;
   }
 
+
   .projects-page {
     border-radius: 26px;
-    height: 130%;
+    height: 19rem;
   }
 
-  .projects-page img{
+  .projects-page img {
     height: 50%;
     width: 105%;
     margin-top: -15rem;
     margin-left: -1rem;
   }
 
-  .projects-page h2{
-    font-size: 2rem;
+  .projects-page h1 {
+    margin-left: 12rem;
+  }
+
+  .projects-page h2 {
+    font-size: 1.5rem;
     margin: auto;
   }
 }
